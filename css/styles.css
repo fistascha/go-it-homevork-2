@@ -6,11 +6,10 @@ letter-spacing: 0.03em;
 }
 .top line{
 background-color: #FFFFFF; 
-height: 80px;
-width: 1600px;
-left: 0px;
-top: 0px;
 border-radius: 0px;
+}
+.logo {
+text-decoration: none;
 }
 .web{ color: #2196F3;
 font-family: 'Raleway', normal;
@@ -27,15 +26,12 @@ justify-content: left;
 list-style: none;    
 }
 .contact-item{
-height: 16px;
-width: 317px;
-left: 453px;
-top: 32px;
 border-radius: nullpx;
 }
 /* Site nav */
 .site-nav .link {
 color:  #2196F3;
+text-decoration: none;
 }
 .site-nav .link:hover, 
 .site-nav .link:focus{
@@ -49,12 +45,14 @@ margin-left: 15px;
 margin-right: 15px;
 }
 
+.filters-btn:hover,
+.filters-btn:focus{
+    color:  #F5F4FA;
+    background-color: #2196F3;
+}
+
 .hover {
 background-color: #2F303A;
-height: 600px;
-width: 1600px;
-left: 0px;
-top: 80px;
 border-radius: 0px;
 }
 .hero-title{
@@ -65,22 +63,15 @@ font-weight: 900;
 line-height: 60px;
 letter-spacing: 0.06em;
 text-align: center;
-height: 120px;
-width: 696px;
-left: 452px;
-top: 280px;
 border-radius: nullpx;
 }
 .btn{
 background-color: #2196F3;
 font-family: 'Roboto', normal ;
 color: #FFFFFF;
-height: 50px;
-width: 200px;
-left: 700px;
-top: 430px;
 border-radius: 4px;
 }
+
 .heading{ 
 color: #212121;
 font-family: Roboto;
@@ -100,30 +91,17 @@ font-family: Roboto;
 font-size: 36px;
 font-style: normal;
 font-weight: 700;
-line-height: 42px;
 letter-spacing: 0.03em;
 text-align: center;
 }
 .box{
-height: 386px;
-width: 1170px;
-left: 215px;
-top: 969px;
 border-radius: 0px; 
 }
 .command{
 background-color: #F5F4FA; 
-height: 648px;
-width: 1600px;
-left: 0px;
-top: 1449px;
 border-radius: [object Object]px;
 }
 .card{
-height: 368px;
-width: 1170px;
-left: 215px;
-top: 1635px;
 border-radius: [object Object]px;  
 }
 h3{
@@ -132,7 +110,6 @@ color: #212121;
 font-size: 16px;
 font-style: normal;
 font-weight: 500;
-line-height: 19px;
 letter-spacing: 0.03em;
 text-align: center;
 }
@@ -142,27 +119,20 @@ font-family: Roboto;
 font-size: 16px;
 font-style: normal;
 font-weight: 400;
-line-height: 19px;
 letter-spacing: 0.03em;
 text-align: center;
 }
 .footer{
 background-color: #2F303A;
-height: 252px;
-width: 1600px;
-left: 0px;
-top: 2097px;
 border-radius: 0px;   
 }
 .adress{
 color: #FFFFFF;
 font-family: Roboto;
-font-size: 14px;
 font-style: normal;
-font-weight: 400;
+font-weight: normal;
+font-size: 14px;
 line-height: 24px;
-letter-spacing: 0.03em;
-text-align: left;
 }
 
 
