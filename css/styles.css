@@ -1,3 +1,13 @@
+:root{
+    --header-color: #ffffff;
+    --primery-text-color: #212121;
+    --second-text-color: #757575;
+    --primery-title-color: #ffffff;
+    --accent-color: #2196F3;
+    --second-accent-color: #188CE8;
+    --background-color: #2F303A;
+}
+
 /* body-style */
 body {
 background-color: #FFFFFF;
@@ -19,72 +29,82 @@ font-size: 26px;
 font-family: 'Raleway', normal;
 font-size: 26px;
 }
-
 ul{
-display: flex;
-justify-content: left;
-list-style: none;    
+list-style: none;
 }
-.contact-item{
-border-radius: nullpx;
-}
+
 /* Site nav */
-.site-nav .link {
-color:  #2196F3;
-text-decoration: none;
+.nav-link{
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14x;
+letter-spacing: 0.02em;
+color: var(--primery-text-color);
+text-decoration: none;    
 }
-.site-nav .link:hover, 
-.site-nav .link:focus{
-color: #212121;
+.nav-link:hover,
+.nav-link:focus{
+    color: var(--accent-color)
 }
-.mail{
- justify-content: right;
-}
-.link{
-margin-left: 15px;
-margin-right: 15px;
-}
-
-.filters-btn:hover,
-.filters-btn:focus{
-    color:  #F5F4FA;
-    background-color: #2196F3;
+.current{
+    color: var(--accent-color);
 }
 
-.hover {
+.contacts-link{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    color: var(--second-text-color);
+    text-decoration: none;
+}
+.contacts-link:hover,
+.contacts-link:focus{
+    color: var(--accent-color);
+}
+/*----hero-----*/
+.hero {
 background-color: #2F303A;
-border-radius: 0px;
 }
 .hero-title{
-font-family: 'Roboto', normal ;    
-color:  #FFFFFF; 
-font-size: 44px;
-font-weight: 900;
-line-height: 60px;
-letter-spacing: 0.06em;
-text-align: center;
-border-radius: nullpx;
-}
-.btn{
-background-color: #2196F3;
-font-family: 'Roboto', normal ;
-color: #FFFFFF;
-border-radius: 4px;
-}
-
-.heading{ 
-color: #212121;
 font-family: Roboto;
-font-size: 14px;
+font-style: normal;
+font-weight: 900;
+font-size: 44px;
+line-height: 60px;
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+color: #FFFFFF;
+}
+.hero-btn{
+    font-weight: bold;
+    letter-spacing: 0.06em;
+    font-size: 16px;
+    line-height: 1.88;
+    color: var(--primery-title-color);
+    background-color: var(--accent-color);
+}
+.hero-btn:hover,
+.hero-btn:focus{
+background-color: var(--second-accent-color);
+}
+/*----features-----*/
+
+.features-title{
+font-family: Roboto;
 font-style: normal;
 font-weight: bold;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.03em;
 text-transform: uppercase;
 }
-.text{
-color: #757575;
+.features-text{
 font-family: Roboto;
+font-style: normal;
 font-weight: normal;
 font-size: 14px;
+line-height: 24px;
 }
 .title{
 font-family: Roboto;
@@ -122,18 +142,58 @@ font-weight: 400;
 letter-spacing: 0.03em;
 text-align: center;
 }
+/* -----footer------ */
 .footer{
 background-color: #2F303A;
 border-radius: 0px;   
 }
-.adress{
-color: #FFFFFF;
-font-family: Roboto;
-font-style: normal;
-font-weight: normal;
-font-size: 14px;
-line-height: 24px;
+.footer-link-light{
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: var(--primery-title-color);
 }
+.contakts-address{
+    font-style: inherit;  
+}
+.address-link{
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--primery-title-color);
+    background-color: var(--background-color);
+}
+/* ------portfolio page------ */
 
+.filter-btn{
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.63;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--primery-text-color);
+    background-color:  #F5F4FA ;
+}
+.filter-btn:hover,
+.filter-btn:focus{
+    color: var(--primery-title-color);
+    background-color: var(--accent-color); 
+}
+.portfolio-title{
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 2;
+    color: var(--primery-text-color);
+    letter-spacing: 0.06em;
+}
+.portfolio-text{
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.03em;
+    color: var(--second-text-color);
+}
 
 
